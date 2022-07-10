@@ -17,6 +17,8 @@ export const counterSlice = createSlice({
   },
 });
 
+//slice reducer method practice
+
 export const { increase, decrease } = counterSlice.actions;
 
 export const selectCount = (state) => state.counter.value;

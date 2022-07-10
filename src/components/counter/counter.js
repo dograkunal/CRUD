@@ -6,6 +6,8 @@ function Counter() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
 
+  //Counter with slice method
+
   return (
     <div>
       <button onClick={() => dispatch(increase())}>Increase</button>
